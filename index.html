@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Brainiacs Vocabulary Quiz</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Quiz</title>
+</head>
+<body>
+    <h1>Vocabulary Quiz</h1>
+    <label for="gradeSelect">Select Grade Level:</label>
+    <select id="gradeSelect">
+        <option value="1">Grade 1</option>
+        <option value="2">Grade 2</option>
+        <option value="3">Grade 3</option>
+        <option value="4">Grade 4</option>
+        <option value="5">Grade 5</option>
+        <option value="6">Grade 6</option>
+    </select>
+    <button onclick="startQuiz()">Start Quiz</button>
+
+    <div id="quizContainer" style="display:none;">
+        <div id="questions"></div>
+        <button onclick="submitQuiz()">Submit Quiz</button>
+    </div>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
